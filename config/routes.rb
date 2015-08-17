@@ -1,5 +1,5 @@
 Rails.application.routes.draw do	
-	root "links#index"
+	
 	resources :comments
 	devise_for :users
 	resources :links do
@@ -9,4 +9,5 @@ Rails.application.routes.draw do
 		end
 		resources :comments
 	end
+	root "links#index"
 end
