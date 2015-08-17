@@ -31,6 +31,9 @@
 #main_content {
 	#content {
 		float: none;
+		background: #FFF;
+		border-radius: 10px;
+		border: 1px solid #bbddf5;
 	}
 	padding-bottom: 100px;
 	.link {
@@ -55,4 +58,8 @@
 			}
 		}
 	}
+}
+
+body {
+	background: #F1F1F1;
 }
